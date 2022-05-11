@@ -4,7 +4,5 @@ class Solution:
 
         x_reverse_list = list(reversed(x_list))
         
-        if x_list == x_reverse_list:
-            return True
-        else:
-            return False
+        return x_list == x_reverse_list
+         
