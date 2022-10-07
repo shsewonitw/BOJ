@@ -1,9 +1,7 @@
-import sys
-
 N,L = map(int, input().split())
 
-holes = []
-holes = map(int, input().split())
+
+holes = list(map(int, input().split()))
 
 result = 0
 target = 0
