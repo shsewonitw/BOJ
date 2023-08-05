@@ -14,12 +14,6 @@ while True:
     
     # 완전수
     if sum(ys) == n:
-        print(f'{n}', end=' =')
-        for i in ys:
-            print(f' {i}', end='')
-            if ys[-1] == i:
-                print('')
-                break
-            print(' +', end='')
+        print(n, " = ", " + ".join(str(i) for i in ys), sep="")
     else:
         print(f'{n} is NOT perfect.')
